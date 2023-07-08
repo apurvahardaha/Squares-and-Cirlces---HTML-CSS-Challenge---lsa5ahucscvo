@@ -1,9 +1,37 @@
-.outer-square {
-  /* your css goes here */
+.outer-square{
+    width: 600px;
+    height: 600px;
+
+   
 }
-.inner-square {
-  /* your css goes here */
+.box{
+    height: 193.333333px;
+    width: 193.333333px;
+
+    background-color: green;
+    
+
 }
-.circle {
-  /* your css goes here */
+.circle{
+    height: 193.333333px;
+    width: 193.333333px;
+    
+    border-radius: 50%; 
+    background-color: blue;  
+}
+
+.part-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.part-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.part-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
