@@ -1,37 +1,22 @@
 .outer-square{
     width: 600px;
     height: 600px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
 
    
 }
-.box{
-    height: 193.333333px;
-    width: 193.333333px;
+.inner-square{
+ margin: 10px;
 
     background-color: green;
     
 
 }
 .circle{
-    height: 193.333333px;
-    width: 193.333333px;
+   margin: 10px;
     
     border-radius: 50%; 
     background-color: blue;  
-}
-
-.part-1{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-.part-2{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
-}
-.part-3{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
 }
